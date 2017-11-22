@@ -18,8 +18,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ExampleTest {
 
 	private final static String SELENIUM_HUB = System.getProperty("HUB_PORT_4444_TCP_ADDR","172.17.0.2");
-    private final static String SELENIUM_URL = "http://172.17.0.2:4444/wd/hub";
-//    private final static String SELENIUM_URL = System.getProperty("selenium.url", "http://"+SELENIUM_HUB+":4444/wd/hub");
+//    private final static String SELENIUM_URL = "http://172.17.0.2:4444/wd/hub";
+    private final static String SELENIUM_URL = System.getProperty("selenium.url", "http://"+SELENIUM_HUB+":4444/wd/hub");
     private final static String SELENIUM_BROWSER = System.getProperty("selenium.browser", "chrome");
     private final static int SLEEP = Integer.parseInt(System.getProperty("sleep", "10000"));
 
