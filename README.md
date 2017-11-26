@@ -18,3 +18,7 @@ Connect to VNC using password `secret`
     docker run -d -p 4444:4444 --name selenium-hub selenium/hub:3.4.0
     docker run -d -p 5901:5900 --link selenium-hub:hub selenium/node-chrome-debug:3.4.0
     docker run -d -p 5902:5900 --link selenium-hub:hub selenium/node-firefox-debug:3.4.0
+	
+## Tips
+
+Modify the localhost access by the HUB_PORT_4444_TCP_ADDR environmental variable address
