@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExampleTest {
 
-	private final static String SELENIUM_HUB = System.getProperty("HUB_PORT_4444_TCP_ADDR","172.17.0.2");
+	private final static String SELENIUM_HUB = System.getProperty("HUB_PORT_4444_TCP_ADDR","192.168.1.2");
 	private final static String SELENIUM_URL = "http://"+SELENIUM_HUB+":4444/wd/hub";
 //    private final static String SELENIUM_URL = System.getProperty("selenium.url", "http://"+SELENIUM_HUB+":4444/wd/hub");
 	private final static String SELENIUM_BROWSER = System.getProperty("selenium.browser", "chrome");
